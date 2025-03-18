@@ -32,3 +32,15 @@ Route::get('/siswa', function () {
 Route::get('/dasboard', function () {
     return view('dasboard');
 });
+
+Route::get('/form siswa', function () {
+    return view('form_siswa');
+});
+
+Route::get('/guru', function () {
+    return view('dt_guru');
+});
+
+Route::get('/kelas', function () {
+    return view('dt_kelas');
+});

@@ -3,6 +3,14 @@
     Dasboard
 @endsection
 
+@section('nama_hal')
+    Dasboard
+@endsection
+
+@section('active1')
+    active
+@endsection
+
 @section('table')
 <div class="content">
     <div class="container-fluid">
@@ -220,20 +228,20 @@
                     <div class="row">
                         <div class="col-xs-5">
                             <div class="icon-big icon-info text-center">
-                                <i class="ti-twitter-alt"></i>
+                                <i class="ti-announcement"></i>
                             </div>
                         </div>
                         <div class="col-xs-7">
                             <div class="numbers">
-                                <p>gak tau</p>
-                                +45
+                                <p>Pengumuman</p>
+                                4
                             </div>
                         </div>
                     </div>
                     <div class="footer">
                         <hr />
                         <div class="stats">
-                            <i class="ti-reload"></i> Updated now
+                            <i class="ti-bell"></i> Updated now
                         </div>
                     </div>
                 </div>

@@ -54,43 +54,43 @@
         </div>
     
         <ul class="nav">
-            <li class="active">
-                <a href="dashboard.html">
+            <li  class="@yield('active1')">
+                <a href="dasboard">
                     <i class="ti-panel"></i>
                     <p>Dashboard</p>
                 </a>
             </li>
-            <li>
-                <a href="#">
+            <li class="@yield('active2')">
+                <a href="kelas">
                     <i class="ti-blackboard"></i>
                     <p>Kelas</p>
                 </a>
             </li>
-            <li>
-                <a href="#">
+            <li class="@yield('active3')">
+                <a href="guru">
                     <i class="ti-view-list-alt"></i>
                     <p>Guru</p>
                 </a>
             </li>
-            <li>
+            <li class="@yield('active4')">
                 <a href="#">
                     <i class="ti-announcement"></i>
                     <p>Pengumuman</p>
                 </a>
             </li>
-            <li>
-                <a href="#">
+            <li class="@yield('active5')">
+                <a href="siswa">
                     <i class="ti-pencil-alt2"></i>
                     <p>Data Siswa</p>
                 </a>
             </li>
-            <li>
+            <li class="@yield('active6')">
                 <a href="#">
                     <i class="ti-plus"></i>
                     <p>Add Admin</p>
                 </a>
             </li>
-            <li>
+            <li class="@yield('active7')">
                 <a href="#">
                     <i class="ti-shift-left"></i>
                     <p>Logout</p>
@@ -109,7 +109,7 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Dashboard</a>
+                    <a class="navbar-brand" href="#">@yield('nama_hal')</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
