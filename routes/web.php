@@ -24,3 +24,11 @@ Route::get('/home', function () {
 Route::get('/contoh', function () {
     return view('contoh');
 });
+
+Route::get('/siswa', function () {
+    return view('dt_siswa');
+});
+
+Route::get('/dasboard', function () {
+    return view('dasboard');
+});
