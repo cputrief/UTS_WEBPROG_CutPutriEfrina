@@ -44,3 +44,15 @@ Route::get('/guru', function () {
 Route::get('/kelas', function () {
     return view('dt_kelas');
 });
+
+Route::get('/pengumuman', function () {
+    return view('pengumuman');
+});
+
+Route::get('/add admin', function () {
+    return view('add_admin');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});

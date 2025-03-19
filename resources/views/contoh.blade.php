@@ -73,7 +73,7 @@
                 </a>
             </li>
             <li class="@yield('active4')">
-                <a href="#">
+                <a href="pengumuman">
                     <i class="ti-announcement"></i>
                     <p>Pengumuman</p>
                 </a>
@@ -85,13 +85,13 @@
                 </a>
             </li>
             <li class="@yield('active6')">
-                <a href="#">
+                <a href="add admin">
                     <i class="ti-plus"></i>
                     <p>Add Admin</p>
                 </a>
             </li>
             <li class="@yield('active7')">
-                <a href="#">
+                <a href="login">
                     <i class="ti-shift-left"></i>
                     <p>Logout</p>
                 </a>
